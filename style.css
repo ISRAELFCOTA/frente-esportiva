@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif !important;
+  text-decoration: nome;
+  list-style: none;
+}
+/* NAVBAR */
+.navbar {
+  background-color: #fff;
+  padding: 1rem !important;
+}
+
+.navbar .navbar-brand {
+  color: #99a6c5;
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-brand:hover {
+  color: #14243c;
+  transition: 0.5s;
+}
+
+.navbar .navbar-nav .nav-item a {
+  color: #99a6c5 !important ;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+  color: #14243c !important;
+}
+
+/* MAIN */
+
+main {
+  background-color: #fff;
+  color: #14243c;
+}
+
+/* Botão do para ir para outra page */
+main .btn {
+  background-color: #d69a02;
+  box-shadow: 0 0 20px rgba(3, 3, 3, 0.2);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+main .btn:hover {
+  background-color: #f7b731;
+}
+
+main .btn a {
+  text-decoration: none;
+  color: #8a5b00;
+  font-weight: bold;
+}
+
+/* PRODUTOS */
+main .borda {
+  border-bottom: 10px solid #14243c;
+  width: 80%;
+  margin-bottom: 20px;
+}
+main .row .bloco {
+  width: 640px;
+  height: 467px;
+}
+
+main .row .bloco img {
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(3, 3, 3, 0.1);
+}
+
+main .row .bloco:hover{
+  transform: scale(1.035);
+  transition: 0.5s;
+}
+
+/* historia */
+
+.historia .container .card {
+  background: rgb(20, 36, 60);
+  background: linear-gradient(
+    22deg,
+    rgba(20, 36, 60, 1) 0%,
+    rgba(62, 76, 103, 1) 100%
+  );
+  color: #99a6c5;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 20px rgba(3, 3, 3, 0.2);
+}
+
+.historia .container .titulo {
+  color: #99a6c5;
+}
+
+.historia .container .titulo .desc {
+  font-size: 2rem !important;
+}
+
+.boasvindas p {
+  text-align: justify !important;
+}
+
+/* FOOTER */
+
+.divpai {
+  background-color: #14243c;
+}
+
+.btn {
+  font-size: 14px;
+  color: #fff;
+  background-color: #f7b401;
+  padding: 10px 30px;
+  border: solid #f7b401 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(-0px);
+  background-color: #fff;
+  color: #0066cc;
+  border: solid 2px #0066cc;
+}
